@@ -32,7 +32,7 @@ class handDetector():
     
 
 
-    def findPosition(self, img, handNo=0, draw=True):
+    def findPosition(self, img, handNo=0):
 
         lmList = []
 
@@ -72,6 +72,7 @@ def main():
 
 
 
-
+# if this script is directly run then name is __main__
+# if it is imported/run by another script this will not be executed
 if __name__ == "__main__":
     main()
